@@ -1,0 +1,27 @@
+#odd or even
+a=int(input("enter the number"))
+if a%2==0:
+ print("even number")
+else:
+  print("odd number")
+
+#positive,negaitive,or zero
+a=int(input("enter the number"))
+if a>0:
+ print("it is a positive number")
+elif a<0:
+  print("it is a negaitive number")
+else:
+  print("zero")
+
+
+#largest of three number
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+c=int(input("enter the thitd number"))
+if (a>=b) and (a>=c):
+ print("the largest number is",a)
+elif(a>=b) and (b>=c):
+  print("the largest number is",b)
+else:
+  print("the largest number is",c)
