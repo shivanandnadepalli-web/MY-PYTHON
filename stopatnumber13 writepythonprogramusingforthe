@@ -1,0 +1,7 @@
+#stop at number 13 write python program using for the loop and break statement
+for i in range (1,21):
+  if i ==13:
+    break
+  print(i)
+print("shivanandh")
+print('AIML')
