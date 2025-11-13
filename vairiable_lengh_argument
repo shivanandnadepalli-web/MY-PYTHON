@@ -1,0 +1,4 @@
+#vairiable lengh argument
+def shivamnand (*a):
+  print("hello")
+  shivanand(1234)
